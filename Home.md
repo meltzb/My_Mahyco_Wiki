@@ -37,3 +37,6 @@ $$
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
 [Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
+# Reference pattern4gpu
+[Link Text](https://github.com/cea-hpc/pattern4gpu).
