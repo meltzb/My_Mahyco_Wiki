@@ -19,6 +19,14 @@ git commit
 
 $$
 \begin{eqnarray*}
+\frac{\partial\rho}{\partial t}+div(\rho\overrightarrow{U}) & = & 0\\
+\frac{\partial\rho\overrightarrow{U}}{\partial t}+div(\rho\overrightarrow{U}\otimes\overrightarrow{U}+p\,\overline{\overline{Id}}) & = & 0\\
+\frac{\partial}{\partial t}(\rho e+\frac{1}{2}\rho U^{2})+div((\rho e+\frac{1}{2}\rho U^{2}+p)\overrightarrow{U}) & = & 0
+\end{eqnarray*}
+$$
+
+$$
+\begin{eqnarray*}
 \frac{\partial\rho}{\partial t}+div(\rho\overrightarrow{U}) & ...
 ...)+div((\rho e+\frac{1}{2}\rho U^{2}+p)\overrightarrow{U}) & = & 0\end{eqnarray*}
 $$
