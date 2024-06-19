@@ -6,7 +6,8 @@ Welcome to the MaHyCo wiki!
 
 This page will show you how to build/compile/run MaHyCo with unix instructions 
 
-Texte with quotes : > Text with quotes
+Texte with quotes : 
+> Text with quotes
 
 Use `git status` to list all new or modified files that haven't yet been committed.
 
