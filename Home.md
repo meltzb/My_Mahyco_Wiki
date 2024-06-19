@@ -17,6 +17,7 @@ git add
 git commit
 ```
 
+## Euler Equations
 $$
 \begin{eqnarray*}
 \frac{\partial\rho}{\partial t}+div(\rho\overrightarrow{U}) & = & 0\\
