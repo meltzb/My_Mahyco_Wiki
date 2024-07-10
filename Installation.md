@@ -1,5 +1,3 @@
-# Instructions d'installation
-
 Ce guide est pensé une installation sur un ordinateur linux, sur les distributions Ubuntu ou Alma Linux.
 Les précisions pour d'autres distributions sont les bienvenues.
 
