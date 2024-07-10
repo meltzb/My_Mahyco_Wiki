@@ -1,14 +1,12 @@
-# Instructions d'installation
-
 Ce guide est pensé une installation sur un ordinateur linux, sur les distributions Ubuntu ou Alma Linux.
 Les précisions pour d'autres distributions sont les bienvenues.
 
 MaHyCo utilise la bibliothèque [Arcane](http://github.com/arcane-framework/framework). Il est donc nécessaire de l'installer au préalable pour pouvoir utiliser MaHyCo.
 
-## Installation d'Arcane
+# Installation d'Arcane
 
 
-### Logiciels/bibliothèques requis
+## Logiciels/bibliothèques requis
 
 La compilation d'Arcane nécessite les logiciels suivants. Il sont également nécessaires pour compiler MaHyCo (peut-être pas tous ?).
 
