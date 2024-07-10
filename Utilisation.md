@@ -16,9 +16,13 @@ On peut utiliser Paraview pour ouvrir `output/depouillement/ensight.case`.
 
 Les paramètres de la simulation sont définis dans un fichier XML ayant l'extension `.arc`.
 Les différents paramètres sont décrits dans les différents fichiers `.axl` du dossier `src`.
-Ce fonctionnement découle directement d'Arcane.
+Ce fonctionnement découle directement d'Arcane, vous pouvez consulter la documentation Arcane
 
-Plusieurs exemples sont données dans le dossier TESTS et NONREGRESSION.
+* [des jeux de données .ARC](https://arcaneframework.github.io/arcane/userdoc/html/d5/dcd/arcanedoc_core_types_casefile.html),
+* [des descripteurs de services/modules .AXL](https://arcaneframework.github.io/arcane/userdoc/html/db/d4e/arcanedoc_core_types_axl.html),
+* [des options](https://arcaneframework.github.io/arcane/userdoc/html/d4/d00/arcanedoc_core_types_axl_caseoptions.html).
+
+Plusieurs exemples sont données dans les dossiers TESTS et NONREGRESSION.
 
 ## Depuis un cas test
 
