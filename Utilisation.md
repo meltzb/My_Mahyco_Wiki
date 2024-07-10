@@ -58,3 +58,43 @@ J'ai trouvé cela avec `grep -ri post-processing | grep axl`.
 
 Fixé par défaut en simple précision.
 On peut passer en double précision avec `<format name="UCDPostProcessor" />`.
+
+# Options en ligne de commande
+
+Vous pouvez ajouter les options suivantes pour chaque exemple. Les
+options doivent être ajoutées avant le jeu de données (qui doit
+toujours être le dernier argument).
+```bash
+    -arcane_opt max_iteration N  
+```
+avec N le nombre d'iterations a effectuer
+```bash
+    -arcane_opt continue
+```
+pour faire une reprise: continuer une exécution précédente.
+
+# Lancer MaHyCo en parallèle
+
+Pour lancer un cas en parallèle, il faut specifier le service
+de parallélisme via la variable d'environnement `ARCANE_PARALLEL_SERVICE`.
+Les valeurs possibles sont: `Mpi`, `Thread`, `MpiThread`.
+Dans le cas ou on utilise des threads, il faut spécifier leur nombre
+via la variables d'environnement `ARCANE_NB_THREAD`.
+
+Par exemple, pour 3 process MPI:
+```bash
+    export ARCANE_PARALLEL_SERVICE=Mpi
+    mpiexec -n 3 ./Mahyco Mahyco.arc
+```
+pour 4 threads:
+```bash
+    export ARCANE_PARALLEL_SERVICE=Thread
+    export ARCANE_NB_THREAD=4
+    ./Mahyco Mahyco.arc
+```
+pour 3 process MPI et 4 threads (soit 12 sous-domaines)
+```bash
+    export ARCANE_PARALLEL_SERVICE=MpiThread
+    export ARCANE_NB_THREAD=4
+    mpiexec -n 3 ./Mahyco Mahyco.arc
+```
