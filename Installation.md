@@ -1,6 +1,6 @@
 #### Téléchargement du dépôt git
 
-```sh
+```bash
 git clone https://github.com/cea-hpc/MaHyCo.git
 ```
 
@@ -8,11 +8,11 @@ git clone https://github.com/cea-hpc/MaHyCo.git
 
 - Modifier le fichier `ArcaneCompilerConfig.cmake` avec le chemin d'installation d'Arcane que vous choisissez.
 
-```
+```cmake
 set(Arcane_DIR "/path/to/Arcane/installation" FORCE)
 ```
 
-```sh
+```bash
 rm -rf build
 mkdir build
 cd build
@@ -22,7 +22,7 @@ cd build
 
 Modifier le chemin d'installation d'Arcane dans la commande suivante.
 
-```sh
+```bash
 # Build with makefiles in parallel
 cmake .. -DCMAKE_BUILD_TYPE=Release \
          -DArcane_ROOT=/path/to/arcane/installation
