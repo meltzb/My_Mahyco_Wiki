@@ -2,7 +2,7 @@ Bienvenue sur le wiki de MaHyCo
 
 # Installation
 
-MaHyCo utilise la bibliothèque [arcane](http://github.com/arcane-framework/framework). Il est donc nécessaire de l'avoir installer au préalable pour pouvoir utiliser MaHyCo.
-Vous pouvez suivre [[ce guide|Installation-arcane]].
+MaHyCo utilise la bibliothèque [Arcane](http://github.com/arcane-framework/framework). Il est donc nécessaire de l'avoir installer au préalable pour pouvoir utiliser MaHyCo.
+Vous pouvez suivre [[le guide d'installation d'Arcane|Installation-arcane]].
 
-Suivez ensuite [[ce guide là|Installation]] pour installer MaHyCo.
+Suivez ensuite [[le guide d'installation de MaHyCo|Installation]] pour installer MaHyCo.
