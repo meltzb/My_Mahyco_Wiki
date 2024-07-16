@@ -9,7 +9,7 @@ Ce logiciel utilise le framework Arcane.
 
 # Installation
 
-Suivez [[le guide d'installation de MaHyCo|Installation]] pour installer MaHyCo.
+Suivez [[le guide d'installation de MaHyCo|Installation]] pour installer MaHyCo sur votre ordinateur personnel, ou le [[le guide d'installation Inti de MaHyCo|Installation]] pour installer MaHyCo surle calculateur Inti.
 
 # Utilisation
 
