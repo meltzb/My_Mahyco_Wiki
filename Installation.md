@@ -1,5 +1,5 @@
 Ce guide est pensé une installation sur un ordinateur linux, sur les distributions Ubuntu ou Alma Linux.
-Les précisions pour d'autres distributions sont les bienvenues.
+Les précisions pour d'autres distributions sont les bienvenues (Installation sur Inti à venir).
 
 MaHyCo utilise la bibliothèque [Arcane](http://github.com/arcane-framework/framework). Il est donc nécessaire de l'installer au préalable pour pouvoir utiliser MaHyCo.
 
