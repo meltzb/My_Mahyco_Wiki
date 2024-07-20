@@ -12,10 +12,13 @@ La compilation d'Arcane nécessite les logiciels suivants. Il sont également n�
 
 * cmake
 * dotnet
-* ninja
 * glib2
 * mpich
 * libxml
+
+Pour accélérer la compilation CMake, vous pouvez également installer ces deux packets :
+
+* ninja
 * ccache
 
 Sur alma linux, avec une installation nue, on peut installer tous ces logiciels avec la commande
