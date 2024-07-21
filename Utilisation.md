@@ -67,11 +67,16 @@ toujours être le dernier argument).
 ```bash
     -arcane_opt max_iteration N  
 ```
-avec N le nombre d'iterations a effectuer
+avec N le nombre d'iterations a effectuer.
+On peut également piloter le nombre d'iterations a effectuer de cette manière:
+```bash
+    -A,MaxIteration=N  
+```
+Enfin, pour faire une reprise (continuer une exécution précédente):
 ```bash
     -arcane_opt continue
 ```
-pour faire une reprise: continuer une exécution précédente.
+
 
 # Lancer MaHyCo en parallèle
 
