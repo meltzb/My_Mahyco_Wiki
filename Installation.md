@@ -3,10 +3,10 @@ Les précisions pour d'autres distributions sont les bienvenues (Installation su
 
 MaHyCo utilise la bibliothèque [Arcane](http://github.com/arcane-framework/framework). Il est donc nécessaire de l'installer au préalable pour pouvoir utiliser MaHyCo.
 
-# Installation d'Arcane
 
-
-## Logiciels/bibliothèques requis
+# Installation pour un laptop CEA avec os Alma Linux ou bien Ubutun.20+
+## Installation d'Arcane
+### Logiciels/bibliothèques requis
 
 La compilation d'Arcane nécessite les logiciels suivants. Il sont également nécessaires pour compiler MaHyCo (peut-être pas tous ?).
 
@@ -93,6 +93,11 @@ Avec un chemin éventuellement différent vers gcc-11.
 Si la compilation se lance en GCC-8 alors que GCC-11 a été installé sur l'ordinateur, pensez à vérifier les liens symboliques g++, gcc, c++, cxx.
 
 
+# Installation pour le calculateur Inti
+coucou
+
+
+
 # Installation de MaHyCo
 
 
@@ -101,7 +106,6 @@ Si la compilation se lance en GCC-8 alors que GCC-11 a été installé sur l'ord
 ```bash
 git clone https://github.com/cea-hpc/MaHyCo.git
 ```
-
 ## Compilation
 
 - Modifier le fichier `ArcaneCompilerConfig.cmake` avec le chemin d'installation d'Arcane que vous choisissez.
